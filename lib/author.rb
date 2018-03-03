@@ -20,7 +20,8 @@ class Author
  end
  ###########################
 def add_post_by_title(title)
-  initialize(title)
+   post=Post.new(title)
+   post.author=self
 
 end
 ###########################
