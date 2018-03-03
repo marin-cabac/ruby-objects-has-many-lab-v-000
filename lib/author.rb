@@ -4,7 +4,7 @@ class Author
 
 ###########################
   def initialize(n)
-    
+
     @name=n
     @posts = []
   end
