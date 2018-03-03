@@ -6,16 +6,16 @@ class Author
   def initialize(n)
     @@post_count += 1
     @name=n
-    @posts_arr=[]
+    @posts = []
   end
   ###########################
 
   def posts
-    @posts_arr
+    @posts
   end
   ###########################
  def add_post(post)
-   @posts_arr << post
+   @posts << post
    post.author = self
  end
  ###########################
