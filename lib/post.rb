@@ -2,15 +2,14 @@ class Post
   attr_accessor :author
   def initialize(title)
     @title=title
-  end 
+  end
   def title
     @title
-  end 
+  end
   def author
     @author
-  end 
+  end
   def author_name
     self.author != nil ? @author.name : nil
-  end 
+  end
 end 
-    
