@@ -21,7 +21,7 @@ class Author
  ###########################
 def add_post_by_title(title)
   initialize(title)
- 
+
 end
 ###########################
 def post_count
