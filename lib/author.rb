@@ -4,7 +4,7 @@ class Author
 
 ###########################
   def initialize(n)
-    @@post_count += 1
+    
     @name=n
     @posts = []
   end
@@ -15,6 +15,7 @@ class Author
   end
   ###########################
  def add_post(post)
+   @@post_count += 1
    @posts << post
    post.author = self
  end
