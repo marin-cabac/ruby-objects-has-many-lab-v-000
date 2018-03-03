@@ -5,26 +5,20 @@ class Author
     post_count+=1
     @name=n
     @@posts_arr=[]
-  end 
+  end
 
   def posts
     @@posts_arr
-  end 
+  end
  def add_post(post)
-   @@posts_arr << post 
- end 
+   @@posts_arr << post
+ end
 def add_post_by_title(post_title)
   add_post(post_title)
-  post_title.author = self 
-end 
+  post_title.author = self
+end
 def post_count
   @@post_count
-end 
+end
 
-end 
-
-
-
-
-
- 
+end
