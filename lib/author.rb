@@ -16,6 +16,7 @@ class Author
   ###########################
  def add_post(post)
    @posts_arr << post
+   post.author = self
  end
  ###########################
 def add_post_by_title(post_title)
